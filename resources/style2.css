@@ -1,0 +1,159 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0px;
+}
+/* head/ home bar */
+
+#top-site-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;    
+    display: flex;
+    margin: 0px;
+    background-color: black;
+    border-bottom: 1px seashell solid;
+    width: 100%;
+    height: 69px;
+}
+
+#logo {
+    margin-left: 10px;
+    align-self: center;
+    height: 50px;
+}
+
+.header-right {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.header-right a {
+    padding: inherit;
+    color: seashell;
+
+}
+
+
+/*  Codecademy sugusted code !!!!!
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+*/
+
+/* div1 main pic & banner  */ 
+
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.back-info {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: seashell;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+/* div2 5 pics/ 2 rows with captions/ title */
+.info {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    margin:auto;
+    margin-bottom: 70px;
+}
+
+
+.img-5pics {
+    width: 300px;
+    height: 200px;
+}
+
+.child {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+/* div3 3 word blocks/ locations/ with location title */
+.loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    opacity: 1;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: center;
+}
+
+#locations {
+    text-align: center;
+    color: seashell;
+    width: 100%;
+    margin-bottom: 0px
+}
+
+.town {
+    background-color: black;
+    color: seashell;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    text-align: center;
+}
+
+
+/* div4 centered info 1 block/ co name e-mail & # */
+
+#info {
+    text-align: center;
+    margin:0px;
+    height: 200px;
+}
+
+/* footer w/ copyright info */
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
