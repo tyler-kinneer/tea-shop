@@ -117,7 +117,7 @@ body {
     align-items: center;
     background-image: url(./images/img-locations-background.jpg);
     height: 500px;
-    width: 1200px;
+    width: 100%;
     opacity: 1;
     flex-wrap: wrap;
     margin: auto;
