@@ -139,6 +139,8 @@ body {
     height: 300px;
     margin: 15px 20px;
     text-align: center;
+    flex-shrink: 2;
+    flex-basis: 250px;
 }
 
 
