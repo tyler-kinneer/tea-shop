@@ -99,6 +99,11 @@ body {
     margin-bottom: 70px;
 }
 
+.container2 {
+    flex-basis: 150px;
+    flex-shrink: 2;
+}
+
 
 .img-5pics {
     width: 300px;
